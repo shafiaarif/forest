@@ -6,3 +6,5 @@ from .base import BaseRouter
 
 class GetRoutes(BaseRouter):
     def __init__(self):
+        super().__init__()
+        pass
